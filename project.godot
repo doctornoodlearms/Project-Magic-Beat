@@ -8,16 +8,6 @@
 
 config_version=4
 
-_global_script_classes=[ {
-"base": "PathFollow2D",
-"class": "Note",
-"language": "GDScript",
-"path": "res://Scripts/Note.gd"
-} ]
-_global_script_class_icons={
-"Note": ""
-}
-
 [application]
 
 config/name="Project Magic Beat"

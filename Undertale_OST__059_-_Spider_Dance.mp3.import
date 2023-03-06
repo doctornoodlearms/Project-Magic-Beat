@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Undertale_OST__059_-_Spider_Dance.mp3-524b6e5298cd71ba262505a2defaa538.mp3str"
+
+[deps]
+
+source_file="res://Undertale_OST__059_-_Spider_Dance.mp3"
+dest_files=[ "res://.import/Undertale_OST__059_-_Spider_Dance.mp3-524b6e5298cd71ba262505a2defaa538.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
