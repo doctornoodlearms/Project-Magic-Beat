@@ -1,9 +1,8 @@
 extends PathFollow2D
-class_name Note
 
 signal RemovingNote
 
-export var noteTime:float = 1.0
+var noteTime:float = 1.0
 export var hitWindow:float = 1.0
 
 func hitNote():
@@ -18,9 +17,10 @@ func hitNote():
 
 func _ready() -> void:
 	
+	print(get_children())
 	$Tween.interpolate_property(self, "unit_offset", 0.0, 1.0, noteTime, Tween.TRANS_LINEAR)
 	$Tween.start()
-	
+
 	$NoteTime.wait_time = noteTime
 	$NoteTime.start()
 

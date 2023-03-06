@@ -7,7 +7,6 @@
 cubic_interp = false
 loop = false
 script = ExtResource( 2 )
-noteTime = 5.0
 
 [node name="NoteTime" type="Timer" parent="."]
 one_shot = true
